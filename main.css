@@ -1,0 +1,57 @@
+body {
+  font-family: Roboto;
+  background-color: #F5F5F5;
+  font-size: 100%;
+}
+.card {
+  min-width: 370px;
+}
+#icon {
+  margin: 40px;
+  font-size: 130px;
+}
+#summary {
+  font-size: 44px;
+  letter-spacing: 3px;
+}
+#location {
+  letter-spacing: .5px;
+  margin-bottom: 25px;
+}
+
+#temp {
+  font-size: 46px;
+  line-height: 1;
+  margin-top: 14px;
+}
+#minMax {
+  font-size: 20px;
+}
+.dayOfWeek > p {
+  font-size: 18px;
+  padding: 4px;
+}
+.dayOfWeek > .dailyIcon {
+  font-size: 2em;
+}
+
+.dayOfWeek {
+  margin-top: 8px;
+  width: 31%;
+  display: inline-block;
+}
+#weeklyIcons {
+  padding: 0;
+}
+.row {
+  height: 100px;
+}
+.footer {
+  position: absolute;
+  width: 20%;
+  left: 40%;
+  height: 15%;
+  background: url('https://darksky.net/dev/img/attribution/poweredby.png') no-repeat center;
+  background-size: contain;
+}
+
