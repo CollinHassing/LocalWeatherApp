@@ -3,9 +3,7 @@ body {
   background-color: #F5F5F5;
   font-size: 100%;
 }
-.card {
-  min-width: 340px;
-}
+
 #icon {
   margin: 40px;
   font-size: 130px;
