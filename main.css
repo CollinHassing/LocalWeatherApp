@@ -53,3 +53,10 @@ body {
   background-size: contain;
 }
 
+@media (max-width: 400px) {
+  .dayOfWeek > p {
+  font-size: 12px;
+  padding: 4px;
+  }
+}
+
