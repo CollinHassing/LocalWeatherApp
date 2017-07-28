@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $.getJSON("https://freegeoip.net/json/", function(data2) {
+  $.getJSON("https://freegeoip.io/json/?callback=?", function(data2) {
     // get location user location information
     var lat = data2.latitude;
     var long = data2.longitude;
