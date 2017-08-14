@@ -5,11 +5,10 @@ $(document).ready(function() {
     var long = data2.longitude;
     var city = data2.city;
     var state = data2.region_code;
-    var api =
-      "https://crossorigin.me/https://api.darksky.net/forecast/3bf0cb79490854594f1327b277e0251b/" +
-      lat +
-      "," +
-      long;
+    var api = "https://cors-everywhere.herokuapp.com/https://api.darksky.net/forecast/3bf0cb79490854594f1327b277e0251b/" +
+     lat +
+     "," +
+     long;
     $.getJSON(api, function(data1) {
       // get weather stats using darksky api
       var fTemp = Math.round(data1.currently.temperature);
